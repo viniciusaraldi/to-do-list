@@ -1,0 +1,63 @@
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    margin: 5% auto 0;
+}
+#task {
+    text-align: center;
+}
+h1, h2 {
+    margin: 5px 0;
+}
+label {
+    font-weight: bold;
+}
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#containerList {
+    margin-top: 20px;
+    width: 700px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px auto;
+}
+#containerList p {
+    background: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+/* Responsivo */
+@media (max-width: 450px) {
+    form, #containerList {
+        width: 90%;
+    }
+}
